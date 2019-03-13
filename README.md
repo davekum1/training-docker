@@ -13,3 +13,6 @@ How to run
 docker build -t training-docker:latest .
 docker run -p 8080:8080 training-docker:latest
 ```
+
+Open in your browser:
+localhost:8080/demo/hello

@@ -10,6 +10,6 @@ How to run
 
 ```sh
 ./gradlew clean build
-docker build -t training-docker:latest
+docker build -t training-docker:latest .
 docker run -p 8080:8080 training-docker:latest
 ```

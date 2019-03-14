@@ -21,3 +21,25 @@ sudo systemctl restart docker.service
 ```
 Open in your browser:
 localhost:8080/demo/hello
+
+Some handy docker command
+
+Looking for all images
+
+```sh
+docker images
+```
+Looking for running container
+
+```sh
+docker ps
+```
+
+Removing images
+
+```sh
+docker rmi [images names]
+```
+
+
+
